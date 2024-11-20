@@ -94,7 +94,7 @@ def delsshKey(user):
 
 
 if __name__ == '__main__':
-    id_ed25519_pub = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBhXLc+3gT/yi99et2/+H71uwghtBAZOBtHDFOm0t3WR root@host3"
+    id_ed25519_pub = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9QTtsuzRkYNy6ShxfpOsAYlQknzrit+6gyzAXN9zTI root@host3"
     # 调用 miyue 函数来在文件末尾写入新内容
     # ssh-keygen -t ed25519 -N "admin!@#45123"
     user = ml('whoami').strip()
